@@ -1,0 +1,113 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*TODO: Word spacing was changed to reduce leading between ART BY and my name
+Need to verify or fix any changes made to h1s beside ART BY*/
+h1{
+	font-family: OratorStd;
+	font-size: 25px;
+	margin: 0px;
+	word-spacing: -3px;
+}
+h2{
+	font-family: Helvetica;
+	font-size: 30px;
+	margin: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+a:link{
+	color: grey;
+}
+a:visited{
+	color: grey;
+}
+a:hover{
+	color: black;
+}
+
+
+#UL_navButtons a{
+	border-bottom-style: solid;
+	border-color: black;
+	border-width: thin;
+	display: block;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+
+#header{
+	background-color: black;
+	height: 25px;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	margin-left: 250px;
+}
+#footer{
+	background-color: black;
+	height: 25px;
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	margin-left: 250px;
+	display: table;
+}
+
+#SPAN_siteCredits{
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 5px;
+	font-family: Helvetica;
+	font-size: 12px;
+	color: white;
+}
+
+#NAV_navSection{
+	border-right-style: solid;
+	border-color: black;
+	border-width: thin;
+	height: calc(100% - 250px);
+	width: 250px;
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	overflow-y: auto;
+	margin-top: 250px;
+}
+
+#DIV_titleSquare{
+	position: fixed;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-color: black;
+	border-width: thin;
+	height: 250px;
+	width: 250px;
+	left: 0px;
+	top: 0px;
+}
+
+#UL_navButtons{
+	list-style-type: none;
+	width: 250px;
+	padding: 0px;
+	margin-top: -1px;
+	margin-bottom: -2px;
+}
+
+#UL_titleSquareText{
+	list-style-type: none;
+	width: 250px;
+	padding: 0px;
+	margin-top: 180px;
+	margin-left: 6px;
+}
+
+
