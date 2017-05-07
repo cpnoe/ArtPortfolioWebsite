@@ -4,39 +4,29 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" type="text/css" href="navigation.css">
-<title>navigationTemplate</title>
+<title></title>
 </head>
 
 <body>
-
-<!--Top letterbox bar-->
-<header id="header"></header>
-
-<!--Title square that holds site title and logos-->
-<!--TO DO: Add logo images-->
-<div id="DIV_titleSquare">
-	<ul id="UL_titleSquareText">
-		<li><h1>Art By</h1></li>
-		<li><h2>CHRISTINA NOE</h2></li>
-	</ul>	
-</div>
-
-<!--Navigation buttons-->
-<!--NOTE: Section is scrollable if buttons break Y-dimension-->
-<!--TO DO: Add navigation links-->
-<nav id="NAV_navSection">
-	<ul id="UL_navButtons">		
-	<li class="LI_navButton"><a href=""><h1>Graphic Design</h1></a></li>
-	<li class="LI_navButton"><a href=""><h1>Illustration</h1></a></li>
-	<li class="LI_navButton"><a href=""><h1>Resume</h1></a></li>
-	<li class="LI_navButton"><a href=""><h1>Contact</h1></a></li>
-	<li class="LI_navButton"><a href=""><h1>About Me</h1></a></li>
-	</ul>
-</nav>
-
-<!--Bottom letterbox bar-->
-<!--Text formatted as span to center text vertically.-->
-<footer id="footer"><span id=SPAN_siteCredits>Website designed and programmed by me, Christina Noe!</span></footer>
-
+	<!--Navigation bar-->
+	<div class="mainNav">
+		<!--Name section of navigation-->
+		<div class="navDiv" id="nameDiv">
+			<ul class="nameDivLabels">
+				<li><b><a href="../../Pages/SplashPage/splashPage.html" id="nameLabel">CHRISTINA NOE</a></b></li>
+				<li><i><a href="../../Pages/SplashPage/splashPage.html" id="artByLabel">PROGRAMMER & ARTIST</a></i></li>
+			</ul>
+		</div>
+		<!--Links section of navigation-->
+		<div class="navDiv" id="linksDiv">
+			<ul class="navDivLinks">
+				<li><a href="../../Pages/GraphicDesign/graphicDesign.html" id="portfolioLink">PORTFOLIO</a></li>
+				<li><a href="../../Pages/Resume/resume.html" id="resumeLink">RESUME</a></li>
+				<li><a href="../../Pages/Contact/contact.html" id="contactLink">CONTACT</a></li>
+				<li><a href="../../Pages/About/about.html" id="aboutLink">ABOUT</a></li>
+			</ul>
+		</div>	
+	</div>
 </body>
+
 </html>

@@ -1,113 +1,76 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/*TODO: Word spacing was changed to reduce leading between ART BY and my name
-Need to verify or fix any changes made to h1s beside ART BY*/
-h1{
-	font-family: OratorStd;
-	font-size: 25px;
+
+/* General page visual attributes. */
+html, body{
 	margin: 0px;
-	word-spacing: -3px;
+	padding: 0px;
+	height: 100%;
 }
-h2{
-	font-family: Helvetica;
-	font-size: 30px;
-	margin: 0px;
-}
-
-a {
-	text-decoration: none;
-}
-a:link{
-	color: grey;
-}
-a:visited{
-	color: grey;
-}
-a:hover{
-	color: black;
+body{
+	background: linear-gradient(#1E94FF, papayawhip 60%);
+	background-repeat: no-repeat;
+	height: 100%;
 }
 
 
-#UL_navButtons a{
-	border-bottom-style: solid;
-	border-color: black;
-	border-width: thin;
-	display: block;
+/* .mainNav visual attributes. */
+.mainNav{
 	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 15px;
+	padding: 30px 0px 30px 0px;
+	margin: 0px;
 }
-
-#header{
-	background-color: black;
-	height: 25px;
-	width: 100%;
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	margin-left: 250px;
-}
-#footer{
-	background-color: black;
-	height: 25px;
-	width: 100%;
-	position: fixed;
-	bottom: 0px;
-	left: 0px;
-	margin-left: 250px;
-	display: table;
-}
-
-#SPAN_siteCredits{
-	display: table-cell;
+.mainNav .navDiv{
+	display: inline-block;
 	vertical-align: middle;
-	padding-left: 5px;
-	font-family: Helvetica;
-	font-size: 12px;
-	color: white;
+	padding: 0px 20px 0px 20px;
 }
 
-#NAV_navSection{
-	border-right-style: solid;
-	border-color: black;
-	border-width: thin;
-	height: calc(100% - 250px);
-	width: 250px;
-	position: fixed;
-	top: 0px;
-	bottom: 0px;
-	left: 0px;
-	overflow-y: auto;
-	margin-top: 250px;
-}
 
-#DIV_titleSquare{
-	position: fixed;
-	border-right-style: solid;
-	border-bottom-style: solid;
-	border-color: black;
-	border-width: thin;
-	height: 250px;
-	width: 250px;
-	left: 0px;
-	top: 0px;
-}
-
-#UL_navButtons{
+/* #nameDiv visual attributes. */
+.mainNav #nameDiv .nameDivLabels{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	letter-spacing: 5px;
 	list-style-type: none;
-	width: 250px;
+	text-align: right;
 	padding: 0px;
-	margin-top: -1px;
-	margin-bottom: -2px;
+}
+.nameDivLabels a{
+	text-decoration: none;
+	color: #000000;
+}
+#artByLabel{
+	font-size: 9pt;
 }
 
-#UL_titleSquareText{
+
+/* #linksDiv visual attributes. */
+#linksDiv {
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+}
+.mainNav #linksDiv .navDivLinks{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	letter-spacing: 5px;
 	list-style-type: none;
-	width: 250px;
+	text-align: left;
 	padding: 0px;
-	margin-top: 180px;
-	margin-left: 6px;
 }
-
-
+.navDivLinks a {
+	text-decoration: none;
+	color: papayawhip;
+}
+#portfolioLink:hover{
+	color: #000000;
+}
+#resumeLink:hover{
+	color: #000000;
+}
+#contactLink:hover{
+	color: #000000;
+}
+#aboutLink:hover{
+	color: #000000;
+}
